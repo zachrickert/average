@@ -1,15 +1,16 @@
 # average.py
 #
-# A program to compute the average of two numbers.
-# Illustrates use of multiple imputs.
+# A program to compute the average of three numbers.
 
 def main():
-    print ("This program will compute the average of two numbers.")
+    print ("This program will compute the average of three numbers.")
 
-    score1, score2 = input("Enter two numbers separated by a comma: ")
-    avg = (score1 + score2) / 2.0
+    score1 = float(input("Enter first number: "))
+    score2 = float(input("Enter second number: "))
+    score3 = float(input("Enter third number: "))
+    avg = (score1 + score2 + score3) / 3.0
 
-    print("The average is ") + str(avg)
+    print("The average is " + str(avg))
 
 main()
 
