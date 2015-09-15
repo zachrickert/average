@@ -2,6 +2,7 @@
 #
 # A program to compute the average of three numbers.
 
+
 def main():
     print ("This program will compute the average of three numbers.")
 
@@ -13,4 +14,3 @@ def main():
     print("The average is " + str(avg))
 
 main()
-
